@@ -1,0 +1,24 @@
+{
+    "name": "aecodes/mapper",
+    "description": "a simple database data mapper",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aecodes\\Mapper\\": "src/",
+            "Aecodes\\Mapper\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amine",
+            "email": "kurosoul.ae@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    }
+}
