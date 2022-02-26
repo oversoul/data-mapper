@@ -42,7 +42,7 @@ class EntityMapper
         }
 
         if (is_callable($type)) {
-            return call_user_func($type, [$value]);
+            return call_user_func_array($type, [$value]);
         }
 
         return (new ReflectionClass($type))->newInstance($value);
